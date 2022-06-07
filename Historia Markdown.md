@@ -123,11 +123,13 @@ Construyes una expresión regular en una de estas dos formas:
 * Usando una expresión regular literal, que consiste en un patrón encerrado entre barras, como sigue:
 
     let re = /ab+c/;
+    
     Las expresiones regulares literales proporcionan la compilación de la expresión regular cuando se carga el script. Si la expresión regular permanece constante, su uso puede mejorar el rendimiento.
 
 * O llamando a la función constructora del objeto [RegExp](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp), de la siguiente manera:
 
     let re = new RegExp('ab+c');
+    
     El uso de la función constructora proporciona una compilación en tiempo de ejecución de la expresión regular. Usa la función constructora cuando sepas que el patrón de la expresión regular cambiará, o no conoces el patrón y lo obtienes de otra fuente, como la entrada del usuario.
 
 ---
