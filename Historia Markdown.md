@@ -20,6 +20,8 @@ En el 2005, la relación entre la comunidad que desarrollaba el kernel de Linux 
 Desde su nacimiento en el 2005, Git ha evolucionado y madurado para ser fácil de usar y conservar sus características iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos y tiene un increíble sistema de ramificación (branching) para desarrollo no lineal (véase [ch03-git-branching](https://git-scm.com/book/es/v2/ch00/ch03-git-branching))
 
 ---
+Fuente : [GIT-SCM](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Una-breve-historia-de-Git)
+---
 
 # Historia (informal) de los sistemas de control de versiones
 
