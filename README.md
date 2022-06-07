@@ -20,7 +20,9 @@ En el 2005, la relación entre la comunidad que desarrollaba el kernel de Linux 
 Desde su nacimiento en el 2005, Git ha evolucionado y madurado para ser fácil de usar y conservar sus características iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos y tiene un increíble sistema de ramificación (branching) para desarrollo no lineal (véase [ch03-git-branching](https://git-scm.com/book/es/v2/ch00/ch03-git-branching))
 
 ---
+
 Fuente : [GIT-SCM](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Una-breve-historia-de-Git)
+
 ---
 
 # Historia (informal) de los sistemas de control de versiones
@@ -108,7 +110,9 @@ Pero una de las mejores opciones que te da GIT es la opción de no obligarte a s
 En otro artículo explicaremos cómo montar nuestro sistema GIT centralizado con autenticación utilizando Gitlab y así no tener más excusas para no **migrar a GIT**, basándonos en las experiencias de nuestro día a día en el [departamento de Sistemas.](http://www.irontec.com/sistemas-linux)
 
 ---
+
 Fuente : [IRONTEC](https://blog.irontec.com/historia-informal-de-los-sistemas-de-control-de-versiones/)
+
 ---
 
 # Expresiones Regulares
@@ -132,5 +136,38 @@ Las expresiones regulares literales proporcionan la compilación de la expresió
 El uso de la función constructora proporciona una compilación en tiempo de ejecución de la expresión regular. Usa la función constructora cuando sepas que el patrón de la expresión regular cambiará, o no conoces el patrón y lo obtienes de otra fuente, como la entrada del usuario.
 
 ---
+
 FUENTE: [MOZILLA](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions)
+
 ---
+
+
+# GREP
+
+El comando grep, es el acrónimo de «Global Regular Expresion Print» que significa «impresión de expresión regular global». Su funcionamiento **se basa en procesar texto línea por línea e imprimir cualquier línea que coincida con el patrón especificado.** Su comportamiento por defecto puede ser modificado mediante el uso de argumentos al momento de ejecutarlo.
+
+Grep es considerado como uno de los comandos más útiles en Linux y sistemas operativos tipo Unix por su potente buscador de patrones en archivos. Ya viene instalado en todos los sistemas Linux, por lo que no es necesario instalarlo manualmente.
+
+--- 
+
+FUENTE: [AYUDALINUX](https://ayudalinux.com/grep-en-linux-como-usarlo/)
+
+---
+
+# SED
+
+El comando SED en UNIX significa editor de flujo y puede realizar muchas funciones en el archivo, como buscar, encontrar y reemplazar, insertar o eliminar. Aunque el uso más común del comando SED en UNIX es para sustitución o para buscar y reemplazar. Al usar SED, puede editar archivos incluso sin abrirlos, que es una forma mucho más rápida de encontrar y reemplazar algo en el archivo, que primero abrir ese archivo en VI Editor y luego cambiarlo.
+
+ * SED es un potente editor de secuencias de texto. Puede hacer inserción, eliminación, búsqueda y reemplazo (sustitución).
+ * El comando SED en Unix admite la expresión regular, lo que le permite realizar coincidencias de patrones complejos. 
+
+---
+
+FUENTE: [GEEKSFORGEEKS](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
+
+---
+
+
+
+
+
