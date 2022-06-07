@@ -109,3 +109,29 @@ En otro artículo explicaremos cómo montar nuestro sistema GIT centralizado con
 
 ---
 Fuente : [IRONTEC](https://blog.irontec.com/historia-informal-de-los-sistemas-de-control-de-versiones/)
+---
+
+# Expresiones Regulares
+
+Las expresiones regulares son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas. En JavaScript, las expresiones regulares también son objetos. Estos patrones se utilizan con los métodos [exec()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec) y [test()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test) de [RegExp](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp), y con [match()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/match), [matchAll()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll), [replace()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [replaceAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) (en-US), [search()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/search) y [split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) métodos de [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String). Este capítulo describe las expresiones regulares de JavaScript.
+
+##Crear una expresión regular
+
+Construyes una expresión regular en una de estas dos formas:
+
+
+* Usando una expresión regular literal, que consiste en un patrón encerrado entre barras, como sigue:
+
+    let re = /ab+c/;
+ 
+
+Las expresiones regulares literales proporcionan la compilación de la expresión regular cuando se carga el script. Si la expresión regular permanece constante, su uso puede mejorar el rendimiento.
+
+* O llamando a la función constructora del objeto [RegExp](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp), de la siguiente manera:
+
+    let re = new RegExp('ab+c');
+
+El uso de la función constructora proporciona una compilación en tiempo de ejecución de la expresión regular. Usa la función constructora cuando sepas que el patrón de la expresión regular cambiará, o no conoces el patrón y lo obtienes de otra fuente, como la entrada del usuario.
+---
+FUENTE: [MOZILLA](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions)
+---
